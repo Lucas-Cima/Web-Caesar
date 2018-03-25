@@ -52,4 +52,10 @@ form = """
 def index():
     return form
 
+
+@app.route('/' methods=['POST'])
+def encrypt():
+
+
+
 app.run()
