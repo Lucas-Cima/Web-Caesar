@@ -12,7 +12,7 @@ form = """
     <head>
         <style>
             form {
-                background-color: #eee;
+                background-color: red;
                 padding: 20px;
                 margin: 0 auto;
                 width: 540px;
@@ -53,8 +53,9 @@ def index():
     return form
 
 
-@app.route('/' methods=['POST'])
-def encrypt():
+@app.route('/ methods=[POST]')
+def encrypt(rot, text):
+    return 
 
 
 
